@@ -24,16 +24,29 @@ Server starts on `localhost:8080`
 Example response:
 
 
+{ <br>
+"playerId": 80,<br>
+"playerName": "Player 80",<br>
+"playerHealth": 64,<br>
+"x": 1255,<br>
+"y": 1270<br>
+},<br>
+
 {<br>
-&nbsp; "playerId": 31,<br>
-&nbsp; "playerName": "Player 31",<br>
-&nbsp;"playerHealth": 100,<br>
-&nbsp;"targetId": null,<br>
-&nbsp; "damage": 0,<br>
-&nbsp; "x": 1500,<br>
-&nbsp; "y": 1500,<br>
-&nbsp; "messageType": "JOIN"<br>
-}
+"playerId": 48,<br>
+"playerName": "Player 48",<br>
+"playerHealth": 100,<br>
+"x": 1500,<br>
+"y": 1500<br>
+},<br>
+
+{<br>
+"playerId": 63,<br>
+"playerName": "Player 63",<br>
+"playerHealth": 79,<br>
+"x": 1275,<br>
+"y": 1595<br>
+}<br>
 
 ## How it works
 
