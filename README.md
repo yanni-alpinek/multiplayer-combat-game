@@ -6,6 +6,7 @@
 
 ## Gameplay
 *Multiple players in combat with health bars*
+
 ![Gameplay with multiple players](gameplay.png)
 
 
@@ -65,8 +66,8 @@ The server is authoritative — it calculates damage and manages all game state.
 
 ## Documentation
 
-* **Server README:** WebSocket handlers, REST endpoints, game logic
-* **Client README:** Rendering, controls, camera system
+- [Game Server](serverGame/README.md) - WebSocket handlers, game logic
+- [Game Client](clientGame/README.md) - Graphics, controls
 
 ---
 
@@ -76,7 +77,29 @@ The server is authoritative — it calculates damage and manages all game state.
 
 Returns all online players as JSON:
 
-![REST API response](api-response.png)
+{<br>
+"playerId": 80,<br>
+"playerName": "Player 80",<br>
+"playerHealth": 64,<br>
+"x": 1255,<br>
+"y": 1270<br>
+},<br>
+
+{<br>
+"playerId": 48,<br>
+"playerName": "Player 48",<br>
+"playerHealth": 100,<br>
+"x": 1500,<br>
+"y": 1500<br>
+},<br>
+
+{<br>
+"playerId": 63,<br>
+"playerName": "Player 63",<br>
+"playerHealth": 79,<br>
+"x": 1275,<br>
+"y": 1595<br>
+}
 
 ## What I Learned
 
@@ -101,5 +124,7 @@ Returns all online players as JSON:
 
 ## Other Projects
 
-* **SPH Fluid Simulation** — Physics simulation with 1000+ particles
-# multiplayer-combat-game
+* **Fluid Simulation SPH** — Physics simulation with 1000+ particles
+* **Mass-Spring Simulation** - A simple physics simulation of a spring-mass system with a bouncing ball
+* **Real-Time Chat** - A real-time chat application using WebSockets for instant messaging
+* **ChessApp (WIP)** -  Work In Progress
