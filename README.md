@@ -5,6 +5,9 @@
 ---
 
 ## Gameplay
+*Multiple players in combat with health bars*
+![Gameplay with multiple players](gameplay.png)
+
 
 Players can move freely, attack, and observe others’ movements in real time.
 
@@ -73,19 +76,7 @@ The server is authoritative — it calculates damage and manages all game state.
 
 Returns all online players as JSON:
 
-```json
-[
-  {
-    "id": 1,
-    "name": "Player1",
-    "x": 50,
-    "y": 120,
-    "hp": 90
-  }
-]
-```
-
----
+![REST API response](api-response.png)
 
 ## What I Learned
 
