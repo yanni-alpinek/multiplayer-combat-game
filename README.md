@@ -126,4 +126,3 @@ Returns all online players as JSON:
 
 * **Fluid Simulation SPH** — Physics simulation with 1000+ particles
 * **Mass-Spring Simulation** - A simple physics simulation of a spring-mass system with a bouncing ball
-* **Real-Time Chat** - A real-time chat application using WebSockets for instant messaging
